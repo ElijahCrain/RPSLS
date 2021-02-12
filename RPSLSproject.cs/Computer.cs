@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace RPSLSproject.cs
 {
-	class SinglePlayer
+	class Computer
 	{
+		//child class
+
+
+		//member Variables
+
+		//Constructor
+
+		//member Methods
 	}
 }
