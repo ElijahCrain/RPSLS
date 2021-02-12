@@ -10,7 +10,8 @@ namespace RPSLSproject.cs
 	{
 		//member Variables
 		//# of players 
-
+		public Player playerone;
+		public Player playertwo;
 		//Constructor
 		//, I want the game of RPSLS to be at minimum a ‘best of three’ to decide a winner. 
 
@@ -23,7 +24,28 @@ namespace RPSLSproject.cs
 		{
 			Console.WriteLine("you will have the opertunity to choose your method of attack and best out of three wins");
 		}
-		
+		public void ChoosePlayer()
+		{
+			playerone = new Human();
+
+			Console.WriteLine("Enter 1 for single player enter 2 for multiplayer.");
+			int userInput = Convert.ToInt32(Console.ReadLine());
+			if (userInput == 1)
+			{
+				Console.WriteLine("You have chosen single player!!");
+				playertwo = new Computer();
+			}
+			else if (userInput == 2)
+			{
+				Console.WriteLine("You have chosen multiplayer!!");
+				playertwo = new Human();
+			}
+			else 
+			{
+
+			}
+
+		}
 
 
 	}

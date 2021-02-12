@@ -10,7 +10,12 @@ namespace RPSLSproject.cs
 	{
 		static void Main(string[] args)
 		{
+			//PlayingField playingField = new PlayingField();
+			//playingField.DisplayRules();
+			Player player = new Player();
+			player.ChooseGesture();
 
+			Console.ReadLine();
 		}
 	}
 }

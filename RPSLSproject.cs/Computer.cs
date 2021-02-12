@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLSproject.cs
 {
-	class Computer
+	class Computer : Player
 	{
 		//child class
 
@@ -16,5 +16,10 @@ namespace RPSLSproject.cs
 		//Constructor
 
 		//member Methods
+		public void SinglePlayer()
+		{
+
+		}
+
 	}
 }

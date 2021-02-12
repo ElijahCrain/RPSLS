@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLSproject.cs
 {
-	class Human
+	class Human : Player
 	{
 		//child class
 		//member Variables
@@ -21,7 +21,10 @@ namespace RPSLSproject.cs
 
 		//member Methods
 
+		public void MultiPlayer()
+		{
 
+		}
 
 
 	}
