@@ -21,10 +21,22 @@ namespace RPSLSproject.cs
 
 		//member Methods
 
-		public void MultiPlayer()
+		public void ChooseName()
 		{
+			Console.WriteLine("Player one please in put your name");
+			string player1InPut = Console.ReadLine();
+			Console.WriteLine("Player one please in put your name");
+			string player2InPut = Console.ReadLine();
+
+			player1InPut = playerOne;
+			player2InPut = playerTwo;
 
 		}
+		
+
+
+
+				
 
 
 	}

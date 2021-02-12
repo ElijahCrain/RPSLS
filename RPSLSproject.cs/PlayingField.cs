@@ -18,7 +18,7 @@ namespace RPSLSproject.cs
 		//member Methods
 		public void Welcome()
 		{
-			Console.WriteLine("welcome to RPSLS");
+			Console.WriteLine("welcome to Rock,paper,scissars,lizard,spock!!!");
 		}
 		public void DisplayRules()
 		{
@@ -46,6 +46,11 @@ namespace RPSLSproject.cs
 			}
 
 		}
+		
+
+
+
+
 
 
 	}

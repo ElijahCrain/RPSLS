@@ -16,10 +16,7 @@ namespace RPSLSproject.cs
 		//Constructor
 
 		//member Methods
-		public void SinglePlayer()
-		{
-
-		}
+		
 
 	}
 }
