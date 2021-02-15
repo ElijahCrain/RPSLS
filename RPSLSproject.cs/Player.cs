@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLSproject.cs
 {
+	// Make this class an abstract  class
 	class Player
 	{
 		//parentclass
@@ -33,12 +34,16 @@ namespace RPSLSproject.cs
 			gestures.Add(lizard);
 			gestures.Add(spock);
 
-			
+		
 		}
 
 
 
 		//member Methods
+
+		// Make this method an abstract method signature
+		// Now the below method will only be a method signature
+		// Each child class will override and implement the method themselves
 		public virtual int ChooseGesture()
 		{
 			Console.WriteLine("chose the gester you would like");
