@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RPSLSproject.cs
 {
 	// Make this class an abstract  class
-	class Player
+	public abstract class  Player 
 	{
 		//parentclass
 		//member Variables
@@ -44,18 +44,8 @@ namespace RPSLSproject.cs
 		// Make this method an abstract method signature
 		// Now the below method will only be a method signature
 		// Each child class will override and implement the method themselves
-		public virtual int ChooseGesture()
-		{
-			Console.WriteLine("chose the gester you would like");
-			for (int i = 0; i < gestures.Count; i++)
-			{
-				Console.WriteLine("press " + i + " for " + gestures[i] );
-			}
-			string response = Console.ReadLine();
-			int convertResponse = Int32.Parse(response);
-			return convertResponse;
-			//give a value to chosenGesture member varaible
-		}
+		public abstract void ChooseGesture();
+		
 
 
 	}
