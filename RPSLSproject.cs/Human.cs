@@ -36,7 +36,7 @@ namespace RPSLSproject.cs
 		//}
 		public override void ChooseGesture()
 		{
-			Console.WriteLine("chose the gester you would like");
+			Console.WriteLine("chose the gesture you would like");
 			for (int i = 0; i < gestures.Count; i++)
 			{
 				Console.WriteLine("press " + i + " for " + gestures[i]);
