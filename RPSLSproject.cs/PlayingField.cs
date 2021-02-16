@@ -37,7 +37,7 @@ namespace RPSLSproject.cs
 		{
 			playerone = new Human();
 
-			Console.WriteLine("Enter 1 for single player enter 2 for multiplayer.");
+			Console.WriteLine("Enter 1 for single player, enter 2 for multiplayer.");
 			int userInput = Convert.ToInt32(Console.ReadLine());
 			if (userInput == 1)
 			{
