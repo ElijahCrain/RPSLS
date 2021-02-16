@@ -14,13 +14,16 @@ namespace RPSLSproject.cs
 		public Player playertwo;
 		public int playerOneScore;
 		public int playerTwoScore;
+		public string name;
 		//Constructor
 		//, I want the game of RPSLS to be at minimum a ‘best of three’ to decide a winner. 
 		public PlayingField()
 		{
 			playerOneScore = 0;
 			playerTwoScore = 0;
+			
 		}
+		
 		//member Methods
 		public void Welcome()
 		{
@@ -187,11 +190,11 @@ namespace RPSLSproject.cs
 		{
 			if (playerOneScore >= 3)
 			{
-				Console.WriteLine($"{playerone} has won the game!!!");
+				Console.WriteLine($"player one has won the game!!!");
 			}
 			else if (playerTwoScore >= 3)
 			{
-				Console.WriteLine($"{playertwo} has won the game!!!");
+				Console.WriteLine($"player two has won the game!!!");
 			}
 		}
 		public void RunGame()

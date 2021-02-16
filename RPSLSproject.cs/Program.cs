@@ -14,7 +14,7 @@ namespace RPSLSproject.cs
 			playingField.RunGame();
 			
 
-			Console.ReadLine();
+			
 		}
 	}
 }
