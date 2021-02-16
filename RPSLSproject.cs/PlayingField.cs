@@ -67,23 +67,23 @@ namespace RPSLSproject.cs
 			}
 			if (playerone.chosenGesture == "rock" && playertwo.chosenGesture == "paper")
 			{
-				Console.WriteLine("paper won");
+				Console.WriteLine("Player two won with paper!");
 				playerTwoScore++;
 
 			}
 			if (playerone.chosenGesture == "rock" && playertwo.chosenGesture == "scissors")
 			{
-				Console.WriteLine("rock won");
+				Console.WriteLine("Player one won with rock!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "rock" && playertwo.chosenGesture == "lizard")
 			{
-				Console.WriteLine("rock won");
+				Console.WriteLine("Player one won with rock!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "rock" && playertwo.chosenGesture == "spock")
 			{
-				Console.WriteLine("spock won");
+				Console.WriteLine("Player two won with spock!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "paper" && playertwo.chosenGesture == "paper")
@@ -93,22 +93,22 @@ namespace RPSLSproject.cs
 			}
 			if (playerone.chosenGesture == "paper" && playertwo.chosenGesture == "rock")
 			{
-				Console.WriteLine("paper won");
+				Console.WriteLine("Player one won with paper!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "paper" && playertwo.chosenGesture == "scissors")
 			{
-				Console.WriteLine("scissors won");
+				Console.WriteLine("Player two won with scissors!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "paper" && playertwo.chosenGesture == "lizard")
 			{
-				Console.WriteLine("lizard won");
+				Console.WriteLine("Player two one with lizard!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "paper" && playertwo.chosenGesture == "spock")
 			{
-				Console.WriteLine("paper won");
+				Console.WriteLine("Player one won with paper!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "scissors" && playertwo.chosenGesture == "scissors")
@@ -118,22 +118,22 @@ namespace RPSLSproject.cs
 			}
 			if (playerone.chosenGesture == "scissors" && playertwo.chosenGesture == "rock")
 			{
-				Console.WriteLine("rock won");
+				Console.WriteLine("Player two has won with rock!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "scissors" && playertwo.chosenGesture == "paper")
 			{
-				Console.WriteLine("scissors won");
+				Console.WriteLine("Player one won with scissors!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "scissors" && playertwo.chosenGesture == "lizard")
 			{
-				Console.WriteLine("scissors won");
+				Console.WriteLine("Player one won with scissors!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "scissors" && playertwo.chosenGesture == "spock")
 			{
-				Console.WriteLine("spock won");
+				Console.WriteLine("Player two won with spock!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "lizard" && playertwo.chosenGesture == "lizard")
@@ -142,22 +142,22 @@ namespace RPSLSproject.cs
 			}
 			if (playerone.chosenGesture == "lizard" && playertwo.chosenGesture == "rock")
 			{
-				Console.WriteLine("rock won");
+				Console.WriteLine("Player two won with rock!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "lizard" && playertwo.chosenGesture == "paper")
 			{
-				Console.WriteLine("lizard won");
+				Console.WriteLine("Player one won with lizard!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "lizard" && playertwo.chosenGesture == "scissors")
 			{
-				Console.WriteLine("scissors won");
+				Console.WriteLine("Player two won with scissors!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "lizard" && playertwo.chosenGesture == "spock")
 			{
-				Console.WriteLine("lizard won");
+				Console.WriteLine("Player one won with lizard!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "spock" && playertwo.chosenGesture == "spock")
@@ -166,22 +166,22 @@ namespace RPSLSproject.cs
 			}
 			if (playerone.chosenGesture == "spock" && playertwo.chosenGesture == "rock")
 			{
-				Console.WriteLine("spock won");
+				Console.WriteLine("Player one won with spock!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "spock" && playertwo.chosenGesture == "paper")
 			{
-				Console.WriteLine("paper won");
+				Console.WriteLine("Player two won with paper!");
 				playerTwoScore++;
 			}
 			if (playerone.chosenGesture == "spock" && playertwo.chosenGesture == "scissors")
 			{
-				Console.WriteLine("spock won");
+				Console.WriteLine("Player one won with spock!");
 				playerOneScore++;
 			}
 			if (playerone.chosenGesture == "spock" && playertwo.chosenGesture == "lizard")
 			{
-				Console.WriteLine("lizard won");
+				Console.WriteLine("Player two won with lizard!");
 				playerTwoScore++;
 			}
 
@@ -222,6 +222,7 @@ namespace RPSLSproject.cs
 			}
 			else if (userInput == 2)
 			{
+				Console.WriteLine("Thank you for playing!!!!");
 				Console.ReadLine();
 				
 			}

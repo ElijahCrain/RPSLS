@@ -10,7 +10,7 @@ namespace RPSLSproject.cs
 	{
 		//child class
 		//member Variables
-
+		public string Name;
 
 
 		//Constructor
