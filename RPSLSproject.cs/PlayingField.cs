@@ -190,11 +190,11 @@ namespace RPSLSproject.cs
 		{
 			if (playerOneScore >= 3)
 			{
-				Console.WriteLine($"player one has won the game!!!");
+				Console.WriteLine($"player one has won the game!!");
 			}
 			else if (playerTwoScore >= 3)
 			{
-				Console.WriteLine($"player two has won the game!!!");
+				Console.WriteLine($"player two has won the game!!");
 			}
 		}
 		public void RunGame()
