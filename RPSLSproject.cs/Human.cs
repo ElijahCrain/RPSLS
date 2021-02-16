@@ -21,19 +21,7 @@ namespace RPSLSproject.cs
 
 
 
-		//member Methods
-
-		//public void ChooseName()
-		//{
-		//	Console.WriteLine("Player one please in put your name");
-		//	string player1InPut = Console.ReadLine();
-		//	Console.WriteLine("Player one please in put your name");
-		//	string player2InPut = Console.ReadLine();
-
-		//	player1InPut = playerOne;
-		//	player2InPut = playerTwo;
-
-		//}
+		
 		public override void ChooseGesture()
 		{
 			Console.WriteLine("Choose the gesture you would like");
